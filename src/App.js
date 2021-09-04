@@ -1,8 +1,9 @@
 import './App.css';
-import Header from './components/header';
+import Homepage from './pages/Homepage';
+
 function App() {
   return (
-    <Header></Header>
+    <Homepage></Homepage>
   );
 }
 
