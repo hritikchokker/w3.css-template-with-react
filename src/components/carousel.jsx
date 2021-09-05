@@ -18,9 +18,15 @@ function Carousel(props) {
 
     return (
         <>
-            {
-                imagesList && imagesList[selectedImgIndex] && <img className="carousel-image" src={imageList[selectedImgIndex].src} alt={imageList[selectedImgIndex].alt}></img>
-            }
+            <div className="carousel-wrapper">
+                {
+                    imagesList && imagesList[selectedImgIndex] && <img className="carousel-image" src={imageList[selectedImgIndex].src} alt={imageList[selectedImgIndex].alt}></img>
+                }
+                <div className="bottom-heading">
+                    <h5>Los Angeles</h5>
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
         </>
     )
 

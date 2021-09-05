@@ -2,3 +2,156 @@
     width: 100%;
     height: 94vh;
 }
+
+.carousel-wrapper {
+    position: relative;
+}
+
+.bottom-heading {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 62%);
+}
+
+.bottom-heading>h5,
+p {
+    text-align: center;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.bottom-heading>h5 {
+    font-size: 1.8rem;
+}
+
+.side-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.other-details-wrapper {
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.col>img {
+    height: 60%;
+    width: 60%;
+    background-size: cover;
+}
+
+.other-details-wrapper>h3 {
+    letter-spacing: 1ch;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    line-height: 10px;
+}
+
+.sub-heading {
+    font-style: italic;
+    color: var(--black);
+}
+
+
+
+.content {
+    width: 700px;
+    font-weight: 500;
+    color: var(--black);
+    text-align: justify;
+    justify-items: center;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+.tour-details {
+    background-color: var(--black);
+    display: flex;
+    height: 900px;
+    flex-direction: column;
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+}
+
+.tour-details>h1 {
+    color: var(--white);
+    text-align: center;
+    padding-top: 56px;
+    text-transform: uppercase;
+}
+
+.tour-details>p {
+    color: var(--grey);
+}
+
+.tour-timmings {
+    background-color: var(--white);
+    list-style: none;
+    width: 600px;
+    margin: auto;
+}
+
+.tour-timmings-item {
+    position: relative;
+    padding: 10px;
+    border-bottom: 2px solid var(--grey);
+}
+
+/* .tour-timmings-item {
+    position: absolute;
+    margin-right: auto;
+    color: var(--black);
+} */
+
+
+.ticket-status {
+    background-color: var(--red);
+    color: var(--white);
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.ticket-status-last {
+    right: 0;
+    margin-right: 20px;
+    border: 2px solid var(--black);
+    border-radius: 80%;
+    padding: 3px;
+    background-color: var(--black);
+    color: var(--white);
+    position: absolute;
+}
+
+.places-details {
+    display: flex;
+    width: 600px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.places-details-item {
+    background-color: var(--white);
+    text-align: center;
+    margin: 20px;
+    max-width: 600px;
+    height: auto;
+}
+
+.tour-images {
+    margin: 10px;
+    height: 60%;
+    width: 60%;
+}
+
+.places-details-item>h5 {
+    text-align: justify;
+}
+
+/* .places-details-item>h2,
+.places-details-item>h3,
+.places-details-item>h5 {
+    color: var(--white);
+} */
