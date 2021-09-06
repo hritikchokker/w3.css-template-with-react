@@ -1,4 +1,6 @@
 function TourDetails() {
+    const url = '#';
+    const altText = 'no image found';
     return (
         <div className="tour-details">
             <h1>
@@ -29,7 +31,7 @@ function TourDetails() {
             </ul>
             <div className="places-details">
                 <div className="places-details-item">
-                    <img className="tour-images" src="https://www.w3schools.com/w3images/newyork.jpg" alt="" />
+                    <img className="tour-images" src="https://www.w3schools.com/w3images/newyork.jpg" alt={altText} />
                     <h2>
                         New york
                     </h2>
@@ -39,12 +41,12 @@ function TourDetails() {
                     <h5>
                         Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                     </h5>
-                    <a className="buy-tickets-btn" href="#">
+                    <a className="buy-tickets-btn" href={url}>
                         Buy Tickets
                     </a>
                 </div>
                 <div className="places-details-item">
-                    <img className="tour-images" src="https://www.w3schools.com/w3images/paris.jpg" alt="" />
+                    <img className="tour-images" src="https://www.w3schools.com/w3images/paris.jpg" alt={altText} />
                     <h2>
                         New york
                     </h2>
@@ -54,12 +56,12 @@ function TourDetails() {
                     <h5>
                         Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                     </h5>
-                    <a href="#">
+                    <a href={url}>
                         Buy Tickets
                     </a>
                 </div>
                 <div className="places-details-item">
-                    <img className="tour-images" src="https://www.w3schools.com/w3images/sanfran.jpg" alt="" />
+                    <img className="tour-images" src="https://www.w3schools.com/w3images/sanfran.jpg" alt={altText} />
                     <h2>
                         New york
                     </h2>
@@ -69,7 +71,7 @@ function TourDetails() {
                     <h5>
                         Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                     </h5>
-                    <a href="#">
+                    <a href={url}>
                         Buy Tickets
                     </a>
                 </div>
