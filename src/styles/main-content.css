@@ -1,24 +1,25 @@
 .carousel-image {
     width: 100%;
-    height: 94vh;
 }
 
 .carousel-wrapper {
+    display: flex;
     position: relative;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .bottom-heading {
-    display: inline-block;
     position: absolute;
-    bottom: 0;
-    left: calc(100% - 62%);
+    bottom: 20px;
+    /* left: calc(100% - 62%); */
 }
 
 .bottom-heading>h5,
 p {
     text-align: center;
     color: var(--white);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .bottom-heading>h5 {

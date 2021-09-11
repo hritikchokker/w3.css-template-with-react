@@ -10,7 +10,7 @@ function Carousel(props) {
             } else {
                 setselectedImgIndex(selectedImgIndex + 1);
             }
-        }, 3000)
+        }, 5000)
         return () => {
             clearInterval(interval);
         }

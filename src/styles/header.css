@@ -1,21 +1,52 @@
 header {
-    display: flex;
     background-color: var(--black);
-    position: relative;
+    /* position: relative; */
 }
 
 .navbar {
-    margin: 10px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: start;
+}
+
+@media only screen and (max-width:535px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar>a {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 1.2rem;
+    }
 }
 
 .navbar>a {
-    padding: 0 22px 0 22px;
     text-decoration: none;
+    height: 100%;
     font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 200;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    font-weight: 400;
     color: var(--white);
     text-transform: uppercase;
+}
+
+.navbar>a:hover {
+    background-color: var(--grey);
+}
+
+.navbar>a:active {
+    background-color: var(--grey);
+}
+
+.navbar>a:not(:first-child) {
+    margin-left: 30px;
+
 }
 
 .dropdown {

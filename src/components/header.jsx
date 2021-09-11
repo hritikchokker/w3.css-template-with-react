@@ -10,7 +10,7 @@ function Header() {
                     <a href={url}>Band</a>
                     <a href={url}>Tour</a>
                     <a href={url}>Contact</a>
-                    <div className="dropdown">
+                    {/* <div className="dropdown">
                         <span className="dropbtn">More</span>
                         <div className="dropdown-content">
                             <a href={url}>Merchandise</a>
@@ -19,10 +19,10 @@ function Header() {
                         </div>
                     </div>
                     <div className="header-searchbar">
-                        {/* <button> */}
-                        <i className="fa fa-search"></i>
-                        {/* </button> */}
-                    </div>
+                        <button>
+                            <i className="fa fa-search"></i>
+                        </button>
+                    </div> */}
                 </nav>
             </header>
         </>
