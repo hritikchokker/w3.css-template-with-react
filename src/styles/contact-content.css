@@ -1,0 +1,41 @@
+.contact_container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+
+.contact_heading {
+    text-align: center;
+}
+
+.contact_heading>h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.contact_heading>p {
+    color: var(--grey);
+}
+
+.aside_content {
+    display: flex;
+
+}
+
+.contact_details {
+    position: relative;
+    width: 50%;
+    text-align: end;
+    align-items: flex-end;
+}
+
+.contact_details>ul {
+    list-style: none;
+}
+
+.contact_form {
+    text-align: start;
+
+}

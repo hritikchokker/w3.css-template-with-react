@@ -6,10 +6,16 @@
 }
 
 .center_content {
-    width: calc(100vw - 50vw);
+    width: calc(100vw - 45vw);
     align-self: center;
     text-align: justify;
     justify-content: center;
+}
+
+
+
+.bg-black {
+    background-color: var(--black);
 }
 
 .center_content_details {
@@ -39,4 +45,31 @@
 .paragraph_heading {
     text-align: center;
     color: var(--black);
+}
+
+.image_shower {
+    display: flex;
+    height: 50vh;
+}
+
+.image_shower>img {
+    width: 100%;
+    height: 100%;
+}
+
+input[type=submit] {
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: var(--grey);
+}
+
+input {
+    height: 40px;
+
 }

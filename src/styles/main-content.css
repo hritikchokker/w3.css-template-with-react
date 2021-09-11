@@ -91,7 +91,6 @@ p {
 .tour-timmings {
     background-color: var(--white);
     list-style: none;
-    width: 600px;
     margin: auto;
 }
 
@@ -133,13 +132,14 @@ p {
     align-self: center;
 }
 
+/* 
 .places-details-item {
     background-color: var(--white);
     text-align: center;
     margin: 20px;
     max-width: 600px;
     height: auto;
-}
+} */
 
 .tour-images {
     margin: 10px;
