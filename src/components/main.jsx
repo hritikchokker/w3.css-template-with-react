@@ -14,6 +14,11 @@ function Main() {
             <div className="image_shower">
                 <img alt="no ima" src="https://www.w3schools.com/w3images/map.jpg" />
             </div>
+            <div className="footer">
+                <p>
+                    Powered by w3.css
+                </p>
+            </div>
             {/* <OtherDetails></OtherDetails> */}
             {/* <TourDetails></TourDetails> */}
         </>

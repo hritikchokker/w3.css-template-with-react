@@ -10,13 +10,19 @@
     display: flex;
     width: calc(100vw - 45vw);
     margin: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
 }
 
 
 .places-details-item {
-    margin-right: 10px;
+    width: 30%;
     background-color: var(--white);
+    text-align: center;
+    padding-bottom: 20px;
 }
+
+.places-details-item>h5 {}
 
 .tour_image {
     width: 100%;
